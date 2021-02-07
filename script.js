@@ -108,7 +108,6 @@ drawClock = (params) =>  {
 
     context.clearRect(0, 0, 300, 300)
 
-    drawInternalCircle()
     drawDivisions()
 
     now_time = getTime()
@@ -117,7 +116,9 @@ drawClock = (params) =>  {
     drawString(now_time[1], 'green')
     drawString(now_time[2], 'blue')
 
+    drawInternalCircle()
     drawExternalCircle()
+
     setTimeout(drawClock, 1000)
 }
 
