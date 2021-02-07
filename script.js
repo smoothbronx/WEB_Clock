@@ -112,7 +112,6 @@ drawClock = (params) =>  {
     drawDivisions()
 
     now_time = getTime()
-    console.log(now_time)
 
     drawString(now_time[0], 'red')
     drawString(now_time[1], 'green')
