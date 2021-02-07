@@ -12,6 +12,8 @@ body {
 
 .container #sandbox {
     background: #222222;
+    border: 4px solid #fff;
+    border-radius: 50%; 
     transition: .5s all;
 }
 
